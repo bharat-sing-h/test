@@ -12,7 +12,7 @@ first-order parameters for 4′-methoxyacetophenone in CDCl₃ (7.94 d, J 8.9 Hz
 - File: `nmr_spectrum.png` (PNG, 2000 × 1100 px, single panel with two expansion insets)
 
 ## Prompt
-The image shows the ¹H NMR spectrum (400 MHz, CDCl₃) of an organic compound with molecular formula C₉H₁₀O₂. The step curves are integrals of the compound's signals, all drawn to the same scale, and the two insets are horizontal expansions of the two signals between 6.5 and 8.0 ppm. Identify the compound and give its IUPAC name.
+The image shows the ¹H NMR spectrum (400 MHz, CDCl₃) of an organic compound with molecular formula C₉H₁₀O₂. The step curves are integrals of the compound's signals, all drawn to the same scale, and the two insets are horizontal expansions of the two signals between 6.5 and 8.0 ppm. What is the IUPAC name of this compound?
 
 ## GTFA
 1-(4-methoxyphenyl)ethan-1-one
