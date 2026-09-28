@@ -128,8 +128,6 @@ def draw(stereo, out_png="grob_fragmentation.png", W=1800, H=1250):
                                              x="[*:7]"))
     m = by_map(mol)
     mol.GetAtomWithIdx(m[7]).SetProp("atomLabel", "OTs")
-    # write the angular methyl out explicitly rather than as a bare line end
-    mol.GetAtomWithIdx(m[9]).SetProp("atomLabel", "CH<sub>3</sub>")
     for at in mol.GetAtoms():
         at.SetAtomMapNum(0)
     rdDepictor.SetPreferCoordGen(True)

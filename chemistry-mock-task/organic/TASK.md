@@ -9,7 +9,7 @@ atom locants overlaid with matplotlib (`make_figure.py` in this folder regenerat
 Log it as a self-generated mechanism drawing.
 
 - File: `grob_fragmentation.png` (PNG, 1800 × 1250 px, single panel). The locant labels 1, 4a, 8a and 6
-  identify atoms only; they do not reveal the product or the answer. The angular methyl is written out as CH₃.
+  identify atoms only; they do not reveal the product or the answer.
 
 ## Prompt
 Look at the reaction shown in the image and follow the curved arrows exactly as drawn to work out the neutral organic product. Ignore the p-toluenesulfonate anion that leaves during the reaction.
@@ -27,7 +27,7 @@ Your final answer is C × R. Give only the resulting integer.
 **Answer format and tolerance:** integer, exact match.
 
 ## Step-by-step solution
-Step 1: The starting material has two six-membered carbocycles fused through the vertical C4a–C8a bond (a decalin). C8a carries a wedged CH₃, C4a carries a hashed O⁻, and C1 (next to C8a) carries a wedged OTs.
+Step 1: The starting material has two six-membered carbocycles fused through the vertical C4a–C8a bond (a decalin). C8a carries a wedged methyl, C4a carries a hashed O⁻, and C1 (next to C8a) carries a wedged OTs.
 
 Step 2: C6 of the right ring is bonded to two oxygen atoms. They are joined through two CH₂ groups to form a five-membered ring, so C6 is the spiro atom of a 1,3-dioxolane.
 
@@ -64,19 +64,19 @@ Step 17: C × R = 12 × 14 = 168.
 Final answer: 168
 
 ## Image description
-The image is a clean, computer-generated black-and-white skeletal (line-angle) structure drawing on a plain white background. It shows a single organic molecule together with three dark-grey, curved, full-headed arrows that depict the movement of electron pairs in one mechanistic step. Four ring carbons carry small grey locant labels: "1", "4a", "8a" and "6". Unlabelled vertices are carbon atoms drawn in standard skeletal style, with their hydrogens not shown. No reagents, conditions or product structure are shown.
+The image is a clean, computer-generated black-and-white skeletal (line-angle) structure drawing on a plain white background. It shows a single organic molecule together with three dark-grey, curved, full-headed arrows that depict the movement of electron pairs in one mechanistic step. Four ring carbons carry small grey locant labels: "1", "4a", "8a" and "6". No reagents, conditions or product structure are shown.
 
 The core of the molecule is two six-membered carbocyclic rings fused side by side, sharing one vertical bond near the centre-left of the image. The upper carbon of this shared bond is labelled 8a and the lower carbon is labelled 4a; both labels are written just inside the right-hand ring.
 
-C8a carries a bold wedge pointing straight up to a group labelled "CH₃". C4a carries a hashed wedge pointing straight down to an oxygen labelled "O⁻"; this oxygen is bonded only to C4a. In the left ring, the vertex at the upper left, labelled 1, is bonded directly to C8a and carries a bold wedge pointing up to a group labelled "OTs". The CH₃ and OTs bonds are both bold wedges, and the O⁻ bond is hashed. The other three vertices of the left ring are unlabelled and have no bonds other than their two ring bonds.
+C8a carries a bold wedge pointing straight up that ends without a label (a methyl group). C4a carries a hashed wedge pointing straight down to an oxygen labelled "O⁻"; this oxygen is bonded only to C4a. In the left ring, the carbon at the upper left, labelled 1, is bonded directly to C8a and carries a bold wedge pointing up to a group labelled "OTs". The methyl and OTs bonds are both bold wedges, and the O⁻ bond is hashed. The other three carbons of the left ring carry no substituents (CH₂ groups).
 
-The right-hand ring consists of C4a, C8a and four further carbon vertices. From C4a, an unlabelled bottom vertex leads to the lower-right ring vertex, labelled 6. C6 has two more bonds, both to oxygen atoms: one runs up and to the right to an oxygen labelled "O", and the other runs almost straight down to a second oxygen labelled "O". These two oxygens are joined to each other through two unlabelled vertices at the far right and bottom right, forming the five-membered ring C6–O–C–C–O. C6 is therefore a ring atom of both the six-membered ring and this five-membered ring, which contains two oxygen atoms. From C6, the six-membered ring continues upward through two unlabelled vertices (upper right and top) back to C8a. None of the unlabelled vertices in either ring carries any drawn substituent.
+The right-hand ring consists of C4a, C8a and four further carbons. From C4a, the bottom CH₂ leads to the lower-right ring carbon, labelled 6. C6 has two more bonds, both to oxygen atoms: one runs up and to the right to an oxygen labelled "O", and the other runs almost straight down to a second oxygen labelled "O". These two oxygens are joined to each other through two unlabelled CH₂ carbons at the far right and bottom right, forming the five-membered ring C6–O–CH₂–CH₂–O. C6 is therefore a ring atom of both the six-membered ring and this five-membered 1,3-dioxolane ring (a spiro ketal). From C6, the six-membered ring continues upward through two CH₂ groups (upper right and top) back to C8a.
 
-Arrow 1 starts at the O⁻ oxygen, just below and to the left of its label. It curves upward, and its head points at the single bond between that oxygen and C4a. In curved-arrow notation it moves an electron pair from the oxygen into the O–C4a bond, making it a C=O double bond.
+Arrow 1 starts at a lone pair on the O⁻ oxygen, just below and to the left of the O⁻ label. It curves upward, and its head points at the single bond between that oxygen and C4a. It therefore moves an oxygen lone pair into the O–C4a bond, making it a C=O double bond.
 
-Arrow 2 starts at the middle of the vertical C4a–C8a bond, on the left-ring side. It curves upward and to the left inside the left ring, and its head points at the middle of the C8a–C1 bond. It moves the electron pair of the C4a–C8a bond into the C8a–C1 bond, making it a C=C double bond.
+Arrow 2 starts at the middle of the vertical C4a–C8a bond, on the left-ring side. It curves upward and to the left inside the left ring, and its head points at the middle of the C8a–C1 bond. It therefore moves the electrons of the C4a–C8a bond into the C8a–C1 bond, making it a C=C double bond.
 
-Arrow 3 starts at the middle of the C1–OTs bond. It curves up and to the right, and its head points at the OTs label. It moves the electron pair of the C1–OTs bond onto the OTs group, which departs.
+Arrow 3 starts at the middle of the C1–OTs bond. It curves up and to the right, and its head points at the OTs label. It therefore moves the electrons of the C1–OTs bond onto the OTs group, which departs.
 
 ## Model failure — targeted modes and justification
 Targeted failure modes:
