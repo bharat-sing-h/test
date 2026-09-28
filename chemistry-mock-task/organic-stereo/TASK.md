@@ -58,16 +58,20 @@ Step 17: Consistency check: this compound is (2R,3S,4R,5S,6S)-6-methyloxane-2,3,
 Final answer: 6-deoxy-α-L-galactopyranose
 
 ## Image description
-The image is a black line drawing on a white background of one six-membered ring in a chair conformation, with every substituent written out. It is a clean, computer-generated structure drawing with no numbering and no visual artefacts.
+The image is a clean, computer-generated black line drawing on a plain white background of one six-membered ring in a chair conformation, with every substituent written out. There are no atom numbers, captions or visual artefacts. The chair is shown in perspective: three consecutive ring bonds are drawn bold to mark the edge of the ring nearest the viewer, and where a thin bond passes behind a bold bond it is drawn with a short gap.
 
-The ring has five carbon vertices and one oxygen vertex labelled "O". The chair's left tip is the highest ring vertex, on the left, and its right tip is the lowest, on the right. Three consecutive ring bonds are drawn bold to mark the edge nearest the viewer: left tip → lower-left vertex, lower-left vertex → O (lower centre-right), and O → right tip. The other three ring bonds are thin (back edge): right tip → upper-right vertex → middle back vertex → left tip. Where a thin bond passes behind a bold bond it is drawn with a short gap.
+The ring has five unlabelled carbon vertices and one oxygen vertex labelled "O". The left tip of the chair is the highest ring vertex and the right tip is the lowest. The three bold (front) ring bonds run left tip → lower-left vertex → O (lower centre-right) → right tip. The three thin (back) ring bonds run right tip → upper-right vertex → middle back vertex → left tip. The ring oxygen therefore lies on the front edge of the chair.
 
-Each carbon has one vertical (axial) bond and one angled (equatorial) bond:
-- Right tip (bonded to O): vertical OH down; H to the right.
-- Upper-right back vertex: vertical H up; OH to the right, angled slightly down.
-- Middle back vertex: OH up and to the left; vertical H down, passing behind the bold O–C bond.
-- Left tip: vertical OH up; H to the left.
-- Lower-left front vertex (bonded to O): H₃C to the left, angled slightly up; vertical H down.
+Every ring carbon carries two bonds: one vertical (axial) bond and one angled (equatorial) bond. An equatorial bond points slightly toward the face of the ring opposite to that carbon's axial bond.
+- Right tip (bonded to the ring O, carrying OH and H; this is the anomeric carbon, C1): vertical OH pointing down (axial, lower face); H pointing to the right (equatorial).
+- Upper-right back vertex (C2): vertical H pointing up (axial); OH pointing to the right and slightly down (equatorial, lower face).
+- Middle back vertex (C3): OH pointing up and to the left (equatorial, upper face); vertical H pointing down (axial), whose bond passes behind the bold O–C bond with a gap.
+- Left tip (C4): vertical OH pointing up (axial, upper face); H pointing to the left (equatorial).
+- Lower-left front vertex (bonded to the ring O, carrying H₃C and H; this is C5): H₃C pointing to the left and slightly up (equatorial, upper face); vertical H pointing down (axial).
+
+Summary of substituent faces as drawn: C1–OH down (axial), C2–OH down (equatorial), C3–OH up (equatorial), C4–OH up (axial), C5–CH₃ up (equatorial).
+
+Because the ring O and C5 lie on the bold front edge and C2 and C3 lie on the thin back edge, the ring sequence O → C1 (right tip) → C2 (upper right, back) → C3 (middle back) → C4 (left tip) → C5 (lower left, front) → O runs counterclockwise when the ring is viewed from above.
 
 ## Model failure — targeted modes and justification
 Targeted failure modes:
