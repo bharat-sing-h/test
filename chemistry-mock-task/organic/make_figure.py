@@ -212,6 +212,17 @@ def draw_arrows(stereo, out_png="grob_fragmentation.png"):
     head3 = P[7] + right * 0.18 * bl + np.array([0, 0.20]) * bl
     arrow(tail3, head3, ARC3)
 
+    # decalin locants for the atoms the arrows and the ketal refer to; these
+    # identify atoms only and do not reveal the product
+    ring_b = np.mean([P[k] for k in (2, 8, 10, 11, 12, 13)], axis=0)
+    labels = {2: "4a", 8: "8a", 12: "6"}
+    for k, text in labels.items():
+        pos = P[k] + unit(ring_b - P[k]) * 0.30 * bl
+        ax.text(*pos, text, fontsize=30, ha="center", va="center",
+                color="#333333", zorder=6)
+    ax.text(*(P[6] + np.array([-0.30, -0.14]) * bl), "1", fontsize=30,
+            ha="center", va="center", color="#333333", zorder=6)
+
     fig.savefig(out_png, dpi=100, facecolor="white")
     plt.close(fig)
     import os
